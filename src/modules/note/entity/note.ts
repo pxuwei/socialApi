@@ -1,14 +1,15 @@
-import { BaseEntity } from '@cool-midway/core';
-import { Column, Entity, Index } from 'typeorm';
-
+import {  } from '@cool-midway/core';
+import { Column, Entity, Index,BaseEntity, PrimaryColumn } from 'typeorm';
 /**
  * 描述
  */
 @Entity('notes')
+// @Entity()
 export class NoteEntity extends BaseEntity {
-  @Index()
-  @Column({ comment: '纸条ID' })
-  noteId: number;
+
+  @PrimaryColumn({ comment: '纸条ID' })
+  // @Column({ comment: '纸条ID' })
+  id: number;
 
   @Column({ comment: '纸条内容' })
   noteContent: string;

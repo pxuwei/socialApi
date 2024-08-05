@@ -9,7 +9,7 @@ export default {
   // use for cookie sign key, should change to your own and keep security
   keys: 'e63a25b0516211ef887641e6e2e388a0',
   koa: {
-    port: 8001,
+    port: 8002,
   },
   // 模板渲染
   view: {

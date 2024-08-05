@@ -10,11 +10,11 @@ export default {
       default: {
         type: 'mysql',
         // host: '156.238.224.182',
-        host: '127.0.0.1',
+        host: '156.238.224.182',
         port: 3306,
-        username: 'root',
-        password: 'root',
-        database: 'cool',
+        username: 'blindbox',
+        password: 'pxuwei',
+        database: 'blindbox',
         // 自动建表 注意：线上部署的时候不要使用，有可能导致数据丢失
         synchronize: false,
         // 打印日志
