@@ -22,6 +22,7 @@ import { Repository, SelectQueryBuilder } from 'typeorm';
 
       ]
     },
+    fieldEq: ["city"],
     addOrderBy: {
       id: "ASC",
     },
